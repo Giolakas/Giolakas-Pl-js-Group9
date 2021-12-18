@@ -1,0 +1,30 @@
+body
+    {
+    margin-top:20px;
+    margin-left:20px;
+    margin-right:20px;
+    margin-bottom:20px;
+    background:#00000071
+    }
+table
+    {
+    width: 400px;
+    }
+th
+    {
+    text-align: center;
+    }
+table,th,td
+    {
+    border: 1px solid #000;
+    } 
+textarea
+    {
+    size-adjust: 50px;
+    }
+th
+    {
+    text-align: center;
+    }
+
+

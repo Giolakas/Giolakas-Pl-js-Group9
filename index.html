@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title> Group-9 Finals</title>
+ <link rel="stylesheet", href="style.css" />
+ <script type="text/javascript" src="script.js"></script>
+</head>
+
+<body>
+ <table>
+<tr>
+ <td>
+    <form id="student-information" autocomplete="off"> 
+    <div>
+      <label for="firstName"> First Name: </label>
+      <input type="text" id="firstName" name="n-firstName">
+    </div>
+    <div>
+    <label for="lastName"> Last Name: </label> 
+      <input type="text" id="lastName" name="n-lastName">
+    </div>
+    <div>
+    <label for="grade"> Grade: </label>
+      <select name="n-grade" id="grade">
+        <option value="1">Grade 1</option>
+        <option value="2">Grade 2</option>
+        <option value="3">Grade 3</option>
+        <option value="4">Grade 4</option>
+        <option value="5">Grade 5</option>
+        <option value="6">Grade 6</option>
+        <option value="7">Grade 7</option>
+        <option value="8">Grade 8</option>
+        <option value="9">Grade 9</option>
+        <option value="10">Grade 10</option>
+        <option value="11">Grade 11</option>
+        <option value="12">Grade 12</option>
+      </select>
+    </div>
+    <div>
+    <label for="section">Section:</label>
+      <input type="text" id="section" name="n-section">
+    </div>
+    <button id="add-student">Add Student</button>
+     <tr>
+      <td>
+       <div>
+          <label for="studentNum">Student Number(Id)</label>
+          <input type="number" id="studentNum" name="studentNum" > 
+    <button id="load-student">Load Data</button>
+        </div>
+      </td>
+     </tr>
+    </form>
+      </td>
+       </table>
+         <td>
+            <table class= "list" id="student-list">
+              <thead>
+                <tr>
+                  <th>Student Number</th>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Grade</th>
+                    <th>Section</th>
+                    <th>Action</th>
+                </tr>
+              </thead>
+                <form id="test">    
+                <tbody id="tbody">
+                </tbody>
+    </form>
+       </table>
+         </td>
+        
+</tr>
+    
+</body>
+</html>
